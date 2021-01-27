@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prediction Page</title>
+</head>
+
+
+<body>
+    <center>
+        <h1> PREDICTION: </h1>
+
+    {%if data == 0 %}
+        <h2 style="color:DogerBlue;">MODEL PREDICTED PATIENT DOESN'T HAVE CANCER [Benign(0)]</h2>
+
+    {%else%}
+        <h2 style="color:Tomato;">MODEL PREDICTED PATIENT HAS CANCER [malignant(1)]</h2>
+
+    {% endif %}
+    </center>
+</body>
+</html>
