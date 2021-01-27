@@ -1,5 +1,7 @@
 # Breast-Cancer-Prediction
 
+The live project demo is available at https://breast-cancer-prediction-2021.herokuapp.com/
+
 This is an end to end machine learning project, where we have applied machine learning algorithms to predict whether a person with specific records will have breast can or not.
 The backend is done in python, frontend in html, and css and have used flask to connect them.
 
